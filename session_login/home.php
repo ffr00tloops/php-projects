@@ -15,10 +15,10 @@ session_start();
            header("Location:Login.php");  
        }
 
-        echo "<div class=\"text-center font-bold text-lg\"> Hello ";
+        echo "<div class=\"text-center font-bold my-52 text-lg\"> Hello ";
           echo $_SESSION['use'];
 
-          echo "<h1>Login Success</h1>";
+          echo "<h1 class=\"text-2xl\">Login Success</h1>";
 
           echo "<a href='logout.php'> Logout</a> "; 
 
